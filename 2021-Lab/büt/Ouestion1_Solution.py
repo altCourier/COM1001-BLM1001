@@ -4,7 +4,7 @@ def fibonacci():
             num1 = int(input("Lütfen birinci tam sayıyı giriniz: "))
             num2 = int(input("Lütfen ikinci tam sayıyı giriniz: "))
         except ValueError :
-            print("Lütfen geçerli bir tam sayılar girin")
+            print("Lütfen geçerli bir tam sayı girin")
             continue
         break
     while True :
