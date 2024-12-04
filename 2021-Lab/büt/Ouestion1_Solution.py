@@ -14,14 +14,11 @@ def fibonacci():
             continue
         break
     uzunluk_ = int(uzunluk)
-    num1_ = int(num1)
-    num2_ = int(num2)
-    liste = [num1_,num2_]
+    liste = [num1,num2]
     for i in range(0,uzunluk_-2):
         liste.append((liste[i]+liste[i+1]))
     print(liste)
 fibonacci()
-
                       
 
                 
