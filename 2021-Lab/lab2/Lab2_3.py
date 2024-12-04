@@ -18,7 +18,7 @@ def main():
     except ValueError:
         print("Please enter a valid number.")
 
-        if myNumber == 1 or 0:
+        if myNumber == 1 or myNumber == 0:
             return "1"
 
         else:
