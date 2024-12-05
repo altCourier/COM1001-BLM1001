@@ -1,6 +1,10 @@
 def myfunc():
     word1 = input("Birinci kelimeyi girin: ").lower()
     word2 = input("ikinci kelimeyi girin: ").lower()
+    word1 = word1.lstrip(" ")
+    word2 = word2.lstrip(" ")
+    word1 = word1.rstrip(" ")
+    word2 = word2.rstrip(" ")
     set1 = set()
     set2 = set()
     length = len(word1)
