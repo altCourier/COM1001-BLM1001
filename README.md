@@ -16,8 +16,7 @@ Year-to-year solved lab questions with different approaches.
 
 This repository contains solutions to lab questions from **COM1001** and **BLM1001**.  
 Each question is approached with multiple methods, showcasing various problem-solving strategies. 
-Don't be afraid, use ChatGPT if needed. But remember that:
-######Growth comes from struggle.
+Don't be afraid.
 
 ---
 
@@ -32,9 +31,9 @@ Don't be afraid, use ChatGPT if needed. But remember that:
 ## **Contributing**
 
 Currently, the main contributors are:  
-- **(@[altCourier](https://github.com/altCourier))**  
-- **(@[murat1399](@https://github.com/murat1399))**  
-- **(@[meryem-ciftci](https://github.com/meryem-ciftci))**  
+- **@[altCourier](https://github.com/altCourier)**  
+- **@[murat1399](@https://github.com/murat1399)**  
+- **@[meryem-ciftci](https://github.com/meryem-ciftci)**  
 
 
 
