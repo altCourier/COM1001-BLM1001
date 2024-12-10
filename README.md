@@ -32,7 +32,7 @@ Don't be afraid.
 
 Currently, the main contributors are:  
 - **@[altCourier](https://github.com/altCourier)**  
-- **@[murat1399](@https://github.com/murat1399)**  
+- **@[murat1399](https://github.com/murat1399)**  
 - **@[meryem-ciftci](https://github.com/meryem-ciftci)**  
 
 
