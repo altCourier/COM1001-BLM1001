@@ -1,10 +1,10 @@
-s = "3[a]2[bc]"
+s = "3[a]2[bc]ef"
 
-stack = []
 def decoder(s:str) -> str:
+    stack = []
     for i in range(len(s)):
         if s[i] != "]":
-            stack.append(s)
+            stack.append(s[i])
         
         else:
             substr = ""
@@ -14,8 +14,8 @@ def decoder(s:str) -> str:
 
             num = ""
             while stack and stack[-1].isdigit():
-                k = stack.pop() + k
+                num = stack.pop() + num
 
-            stack.append(int(k) * substr)
+            stack.append(int(num) * substr)
 
     return "".join(stack)
