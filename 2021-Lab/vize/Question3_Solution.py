@@ -7,10 +7,10 @@ while True :
         if exit == "-1":
             break
         elif exit != "-1" and exit != "0":
-            print("PLEASE TYPE INVALID COMMAND TO CONTINUE OR TO QUIT: ")
+            print("PLEASE TYPE VALID COMMAND TO CONTINUE OR TO QUIT: ")
             continue
     except Exception:
-        print("PLEASE TYPE INVALID COMMAND TO CONTINUE OR TO QUIT: ")
+        print("PLEASE TYPE VALID COMMAND TO CONTINUE OR TO QUIT: ")
         continue
     while True :
         try :
@@ -21,13 +21,13 @@ while True :
             wayy.lstrip(" ")
             wayy.rstrip(" ")
             if wayx.lower() != "right" and wayx.lower() != "left" :
-                print("PLEASE TYPE INVALID DIRECTIONS")
+                print("PLEASE TYPE VALID DIRECTIONS")
                 continue
             if wayy.lower() != "up" and wayy.lower() != "down" :
-                print("PLEASE TYPE INVALID DIRECTIONS")
+                print("PLEASE TYPE VALID DIRECTIONS")
                 continue
         except Exception:
-            print("PLEASE TYPE INVALID DIRECTIONS")
+            print("PLEASE TYPE VALID DIRECTIONS")
             continue
         break 
     while True :
@@ -38,7 +38,7 @@ while True :
                 print("PLEASE TYPE THE STEP NUMBERS GREATER THAN ZERO")
                 continue
         except Exception:
-            print("PLEASE TYPE INVALID STEP NUMBERS")
+            print("PLEASE TYPE VALID STEP NUMBERS")
             continue
         break
 
